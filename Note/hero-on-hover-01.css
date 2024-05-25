@@ -1,0 +1,122 @@
+/* This CSS code block changes the background color and image of the .main-container-slide
+   element when any of the child elements with the class name that contains "slide" is hovered.
+   The background color is set to a semi-transparent shade of #CE3A3A (a dark red color).
+   The background image is set to a different image for each child element that is hovered.
+   The "!important" keyword is used to override any other styles that might be conflicting with these. */
+
+.main-container-slide [class*="slide"]:hover {
+    /* This selector targets any element with a class name that contains the word "slide" that is a child
+       of the .main-container-slide element. When that element is hovered, the background color is set. */
+    background-color: #CE3A3AA1 !important;
+}
+
+.main-container-slide:has(.slide1:hover) {
+    /* This selector targets the .main-container-slide element when the child element with the class name
+       "slide1" is hovered. When that happens, the background image is set to the first image. */
+    background-image: url(https://yousite.com/image1.jpg) !important;
+}
+
+.main-container-slide:has(.slide2:hover) {
+    /* This selector targets the .main-container-slide element when the child element with the class name
+       "slide2" is hovered. When that happens, the background image is set to the second image. */
+    background-image: url(https://yousite.com/image2.jpg) !important;
+}
+
+.main-container-slide:has(.slide3:hover) {
+    /* This selector targets the .main-container-slide element when the child element with the class name
+       "slide3" is hovered. When that happens, the background image is set to the third image. */
+    background-image: url(https://yousite.com/image3.jpg) !important;
+}
+
+.main-container-slide:has(.slide4:hover) {
+    /* This selector targets the .main-container-slide element when the child element with the class name
+       "slide4" is hovered. When that happens, the background image is set to the fourth image. */
+    background-image: url(https://yousite.com/image4.jpg) !important;
+}
+
+
+========================================================================================================================
+
+
+
+
+.main-container-slide [class*="slide"]:hover {
+    background-color: #CE3A3AA1 !important;
+}
+.main-container-slide:has(.slide1:hover) {
+    background-image: url(https://yousite.com/image1.jpg) !important;
+}
+
+
+.main-container-slide:has(.slide2:hover) {
+    background-image: url(https://yousite.com/image2.jpg) !important;
+}
+
+
+.main-container-slide:has(.slide3:hover) {
+    background-image: url(https://yousite.com/image3.jpg) !important;
+}
+
+
+.main-container-slide:has(.slide4:hover) {
+    background-image: url(https://yousite.com/image4.jpg) !important;
+}
+
+
+
+========================================================================================================================
+
+
+
+
+.main-container-slide [class*="slide"]:hover {
+    background-color: #00000086 !important;
+}
+
+.main-container-slide:has(.slide1:hover) {
+    background-image: url(https://visimediaglobal-01.ddev.site/wp-content/uploads/2024/05/kobby-mendez-d0oYF8hm4GI-unsplash-scaled.jpg) !important;
+}
+
+
+.main-container-slide:has(.slide2:hover) {
+    background-image: url(https://visimediaglobal-01.ddev.site/wp-content/uploads/2024/05/backgroung-scaled.jpg) !important;
+}
+
+
+.main-container-slide:has(.slide3:hover) {
+    background-image: url(https://visimediaglobal-01.ddev.site/wp-content/uploads/2024/05/aman-pal-W58S3HDN5rM-unsplash-scaled.jpg) !important;
+}
+
+
+.main-container-slide:has(.slide4:hover) {
+    background-image: url(https://visimediaglobal-01.ddev.site/wp-content/uploads/2024/05/mateusz-waclawek-t2b2svMf8ek-unsplash-scaled.jpg) !important;
+
+
+   
+   
+    =====================================================================================================================
+
+    .main-container-slide { 
+        transition: background-image 0.3s ease;
+    }
+    
+    .main-container-slide [class*="slide"]:hover {
+        background-color: #00000086 !important;
+    }
+    
+    .main-container-slide:has(.slide1:hover) {
+        background-image: url(https://visimediaglobal-01.ddev.site/wp-content/uploads/2024/05/kobby-mendez-d0oYF8hm4GI-unsplash-scaled.jpg) !important;
+    }
+    
+    .main-container-slide:has(.slide2:hover) {
+        background-image: url(https://visimediaglobal-01.ddev.site/wp-content/uploads/2024/05/backgroung-scaled.jpg) !important;
+    }
+    
+    .main-container-slide:has(.slide3:hover) {
+        background-image: url(https://visimediaglobal-01.ddev.site/wp-content/uploads/2024/05/aman-pal-W58S3HDN5rM-unsplash-scaled.jpg) !important;
+    }
+    
+    .main-container-slide:has(.slide4:hover) {
+        background-image: url(https://visimediaglobal-01.ddev.site/wp-content/uploads/2024/05/mateusz-waclawek-t2b2svMf8ek-unsplash-scaled.jpg) !important;
+    }
+    
