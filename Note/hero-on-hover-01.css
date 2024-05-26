@@ -35,7 +35,7 @@
 }
 
 
-========================================================================================================================
+/* ======================================================================================================================== */
 
 
 
@@ -64,7 +64,7 @@
 
 
 
-========================================================================================================================
+/* ======================================================================================================================== */
 
 
 
@@ -90,29 +90,48 @@
 
 .main-container-slide:has(.slide4:hover) {
     background-image: url(https://visimediaglobal-01.ddev.site/wp-content/uploads/2024/05/mateusz-waclawek-t2b2svMf8ek-unsplash-scaled.jpg) !important;
-
+}
 
    
    
-    =====================================================================================================================
+/* ===================================================================================================================== */
+   
+  
+    /* CSS standar untuk tampilan desktop dan tablet */
+.main-container-slide { 
+    transition: background-image 1.4s ease;
+  }
+.main-container-slide [class*="slide"]:hover {
+    background-color: #00000086 !important;
+  }
+.main-container-slide:has(.slide2:hover) {
+      background-image: url(https://visimediaglobal-01.ddev.site/wp-content/uploads/2024/05/kobby-mendez-d0oYF8hm4GI-unsplash-scaled.jpg) !important;
+    }
+.main-container-slide:has(.slide3:hover) {
+      background-image: url(https://visimediaglobal-01.ddev.site/wp-content/uploads/2024/05/aman-pal-W58S3HDN5rM-unsplash-scaled.jpg) !important;
+    } 
+.main-container-slide:has(.slide4:hover) {
+      background-image: url(https://visimediaglobal-01.ddev.site/wp-content/uploads/2024/05/captain-vs-iron.webp) !important;
+    }
 
-    .main-container-slide { 
-        transition: background-image 3.3s ease;
+
+
+    /* ===================================================================================================================== */
+   
+  
+    /* CSS standar untuk tampilan desktop dan tablet */
+.main-container-slide { 
+    transition: background-image 1.4s ease;
+  }
+.main-container-slide [class*="slide"]:hover {
+    background-color: #00000086 !important;
+  }
+.main-container-slide:has(.slide2:hover) {
+      background-image: url(https://visimediaglobal-01.ddev.site/wp-content/uploads/2024/05/kobby-mendez-d0oYF8hm4GI-unsplash-scaled.jpg) !important;
     }
-    
-    .main-container-slide [class*="slide"]:hover {
-        background-color: #00000086 !important;
+.main-container-slide:has(.slide3:hover) {
+      background-image: url(https://visimediaglobal-01.ddev.site/wp-content/uploads/2024/05/aman-pal-W58S3HDN5rM-unsplash-scaled.jpg) !important;
+    } 
+.main-container-slide:has(.slide4:hover) {
+      background-image: url(https://visimediaglobal-01.ddev.site/wp-content/uploads/2024/05/captain-vs-iron.webp) !important;
     }
-    
-    .main-container-slide:has(.slide2:hover) {
-        background-image: url(https://visimediaglobal-01.ddev.site/wp-content/uploads/2024/05/kobby-mendez-d0oYF8hm4GI-unsplash-scaled.jpg) !important;
-    }
-    
-    .main-container-slide:has(.slide3:hover) {
-        background-image: url(https://visimediaglobal-01.ddev.site/wp-content/uploads/2024/05/aman-pal-W58S3HDN5rM-unsplash-scaled.jpg) !important;
-    }
-    
-    .main-container-slide:has(.slide4:hover) {
-        background-image: url(https://visimediaglobal-01.ddev.site/wp-content/uploads/2024/05/mateusz-waclawek-t2b2svMf8ek-unsplash-scaled.jpg) !important;
-    }
-    
